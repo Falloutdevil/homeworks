@@ -1,3 +1,35 @@
-.someClass {
 
+.button {
+    margin: 10px;
+    width: 70px;
 }
+
+.button:hover {
+    cursor: pointer;
+}
+
+.active {
+    background: #1eb1e7;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}
+
+.affair {
+    display: flex;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: lime;
+}
+
