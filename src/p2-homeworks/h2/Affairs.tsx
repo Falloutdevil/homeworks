@@ -3,6 +3,7 @@ import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 
 import s from './Affairs.module.css'
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 
 type AffairsPropsType = { // need to fix any
     data: AffairType[]
@@ -35,10 +36,10 @@ const Affairs: React.FC<AffairsPropsType> = ( {data, setFilter, deleteAffairCall
 
             {mappedAffairs}
 
-            <button className={cnAll} onClick={set} value={'all'}>All</button>
-            <button className={cnHigh} onClick={set} value={'high'}>High</button>
-            <button className={cnMiddle} onClick={set} value={'middle'}>Middle</button>
-            <button className={cnLow} onClick={set} value={'low'}>Low</button>
+            <SuperButton className={cnAll} onClick={set} value={'all'}>All</SuperButton>
+            <SuperButton className={cnHigh} onClick={set} value={'high'}>High</SuperButton>
+            <SuperButton className={cnMiddle} onClick={set} value={'middle'}>Middle</SuperButton>
+            <SuperButton className={cnLow} onClick={set} value={'low'}>Low</SuperButton>
         </div>
     )
 }
