@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/homeworks/static/css/main.13e16f98.css",
+    "main.js": "/homeworks/static/js/main.643fd9c2.js",
+    "static/media/checkMark.svg": "/homeworks/static/media/checkMark.2e106f079672e6b24ac7.svg",
+    "index.html": "/homeworks/index.html",
+    "main.13e16f98.css.map": "/homeworks/static/css/main.13e16f98.css.map",
+    "main.643fd9c2.js.map": "/homeworks/static/js/main.643fd9c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13e16f98.css",
+    "static/js/main.643fd9c2.js"
+  ]
+}
