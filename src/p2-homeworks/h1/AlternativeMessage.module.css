@@ -17,7 +17,7 @@
     padding: 10px;
     border-radius: 5px 5px 0 5px;
     background-color: rgba(229, 214, 154, 0.3);
-    width: 50%;
+    min-width: 25%;
 }
 
 .angle {
